@@ -6,15 +6,16 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/09 14:58:01 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/09 15:04:35 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	libft.a
 
-SRC		=	ft_isalpha.c
+SRCS	=	ft_isalpha.c	\
+			ft_isdigit.c
 
-OBJ		=	$(SRC:.c=.o)
+OBJS	=	$(SRCS:.c=.o)
 
 CC		=	cc
 
@@ -25,11 +26,11 @@ RM		=	rm -f
 all		:
 			make $(NAME)
 
-$(NAME)	:	$(OBJ)
-			ar crs $(NAME) $(OBJ)
+$(NAME)	:	$(OBJS)
+			ar crs $(NAME) $(OBJS)
 
 clean	:
-			$(RM) $(OBJ)
+			$(RM) $(OBJS)
 
 fclean	:	clean
 			$(RM) $(NAME)
