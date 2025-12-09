@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/09 16:22:22 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/09 16:31:04 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,8 @@ NAME	=	libft.a
 SRCS	=	ft_isalnum.c	\
 			ft_isalpha.c	\
 			ft_isascii.c	\
-			ft_isdigit.c
+			ft_isdigit.c	\
+			ft_isprint.c
 
 OBJS	=	$(SRCS:.c=.o)
 
