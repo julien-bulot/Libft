@@ -3,4 +3,5 @@ This project involves coding a C library that will include numerous general purp
 
 ## Libc functions
 * `ft_isalpha`: checks for an alphabetic character;
-* `ft_isdigit`: checks for a digit (0 through 9).
+* `ft_isdigit`: checks for a digit (0 through 9);
+* `ft_isalnum`: checks for an alphanumeric character.

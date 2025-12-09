@@ -6,13 +6,14 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/09 15:04:35 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/09 15:10:39 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	libft.a
 
-SRCS	=	ft_isalpha.c	\
+SRCS	=	ft_isalnum.c	\
+			ft_isalpha.c	\
 			ft_isdigit.c
 
 OBJS	=	$(SRCS:.c=.o)
