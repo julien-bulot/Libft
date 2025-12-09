@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/09 16:34:13 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/09 16:39:23 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,7 @@ SRCS	=	ft_isalnum.c	\
 			ft_isascii.c	\
 			ft_isdigit.c	\
 			ft_isprint.c	\
+			ft_memset.c		\
 			ft_strlen.c
 
 OBJS	=	$(SRCS:.c=.o)

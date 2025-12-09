@@ -6,5 +6,6 @@ This project involves coding a C library that will include numerous general purp
 * `ft_isdigit`: checks for a digit (0 through 9);
 * `ft_isalnum`: checks for an alphanumeric character;
 * `ft_isascii`: checks for an ASCII character;
-* `ft_isprint`: checks for any printable character including space.
-* `ft_strlen`: calculate the length of a string
+* `ft_isprint`: checks for any printable character including space;
+* `ft_strlen`: calculate the length of a string;
+* `ft_memset`: fill memory with a constant byte.
