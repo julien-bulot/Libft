@@ -8,4 +8,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_isascii`: checks for an ASCII character;
 * `ft_isprint`: checks for any printable character including space;
 * `ft_strlen`: calculate the length of a string;
-* `ft_memset`: fill memory with a constant byte.
+* `ft_memset`: fill memory with a constant byte;
+* `ft_bzero`: zero a byte string.
