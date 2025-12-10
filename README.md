@@ -10,4 +10,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_strlen`: calculate the length of a string;
 * `ft_memset`: fill memory with a constant byte;
 * `ft_bzero`: zero a byte string;
-* `ft_memcpy`: copy memory area.
+* `ft_memcpy`: copy memory area not overlap;
+* `ft_memmove`: copy memory area may overlap.
