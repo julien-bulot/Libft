@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/10 13:31:08 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/10 13:46:37 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,6 +21,7 @@ SRCS	=	ft_bzero.c		\
 			ft_isprint.c	\
 			ft_isupper.c	\
 			ft_memchr.c		\
+			ft_memcmp.c		\
 			ft_memcpy.c		\
 			ft_memmove.c	\
 			ft_memset.c		\
