@@ -15,4 +15,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_strlcpy`: copy a string;
 * `ft_strlcat`: concatenate two strings;
 * `ft_toupper`: convert lowercase to uppercase;
-* `ft_tolower`: convert uppercase to lowercase.
+* `ft_tolower`: convert uppercase to lowercase;
+* `ft_strchr`: locate character in string.
