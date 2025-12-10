@@ -6,7 +6,7 @@
 /*   By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 14:50:09 by jbulot            #+#    #+#             */
-/*   Updated: 2025/12/10 13:43:31 by jbulot           ###   ########.fr       */
+/*   Updated: 2025/12/10 13:50:42 by jbulot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stddef.h>
 
 char	*ft_strchr(const char *s, int c);
+char	*ft_strnstr(const char *big, const char *little, size_t len);
 char	*ft_strrchr(const char *s, int c);
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
