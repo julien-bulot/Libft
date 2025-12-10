@@ -18,4 +18,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_tolower`: convert uppercase to lowercase;
 * `ft_strchr`: locate the first occurrence of character in string;
 * `ft_strrchr`: locate the last occurrence of character in string;
-* `ft_strncmp`: compare the first n characters of two strings.
+* `ft_strncmp`: compare the first n characters of two strings;
+* `ft_memchr`: scan the first n bytes of memory for a character.
