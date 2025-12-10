@@ -21,4 +21,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_strncmp`: compare the first n characters of two strings;
 * `ft_memchr`: scan the initial n bytes of the memory area for a character;
 * `ft_memcmp`: compare the first n bytes of two memory areas;
-* `ft_strnstr`: locate the first occurrence of a substring within the first n characters of a string.
+* `ft_strnstr`: locate the first occurrence of a substring within the first n characters of a string;
+* `ft_atoi`: convert a string to an integer.
