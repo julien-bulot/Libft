@@ -12,4 +12,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_bzero`: zero a byte string;
 * `ft_memcpy`: copy memory area not overlap;
 * `ft_memmove`: copy memory area may overlap;
-* `ft_strlcpy`: copy a string.
+* `ft_strlcpy`: copy a string;
+* `ft_strlcat`: concatenate two strings.
