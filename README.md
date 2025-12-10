@@ -23,4 +23,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_memcmp`: compare the first n bytes of two memory areas;
 * `ft_strnstr`: locate the first occurrence of a substring within the first n characters of a string;
 * `ft_atoi`: convert a string to an integer;
-* `ft_calloc`: allocate dynamic memory and initialize it to zero.
+* `ft_calloc`: allocate dynamic memory and initialize it to zero;
+* `ft_strdup`: duplicate a string.

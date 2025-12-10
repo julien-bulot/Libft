@@ -6,7 +6,7 @@
 /*   By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 14:50:09 by jbulot            #+#    #+#             */
-/*   Updated: 2025/12/10 16:23:32 by jbulot           ###   ########.fr       */
+/*   Updated: 2025/12/10 16:49:57 by jbulot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdlib.h>
 
 char	*ft_strchr(const char *s, int c);
+char	*ft_strdup(const char *s);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 char	*ft_strrchr(const char *s, int c);
 int		ft_atoi(const char *nptr);
