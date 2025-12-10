@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/10 14:46:14 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/10 16:30:56 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,6 +14,7 @@ NAME	=	libft.a
 
 SRCS	=	ft_atoi.c		\
 			ft_bzero.c		\
+			ft_calloc.c		\
 			ft_isalnum.c	\
 			ft_isalpha.c	\
 			ft_isascii.c	\
