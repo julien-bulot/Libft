@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/10 11:55:25 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/10 12:23:23 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ SRCS	=	ft_bzero.c		\
 			ft_strlcat.c	\
 			ft_strlcpy.c	\
 			ft_strlen.c		\
+			ft_strrchr.c	\
 			ft_tolower.c	\
 			ft_toupper.c
 

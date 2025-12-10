@@ -16,4 +16,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_strlcat`: concatenate two strings;
 * `ft_toupper`: convert lowercase to uppercase;
 * `ft_tolower`: convert uppercase to lowercase;
-* `ft_strchr`: locate character in string.
+* `ft_strchr`: locate the first occurrence of character in string;
+* `ft_strrchr`: locate the last occurrence of character in string.
