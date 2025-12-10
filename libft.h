@@ -6,7 +6,7 @@
 /*   By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 14:50:09 by jbulot            #+#    #+#             */
-/*   Updated: 2025/12/10 12:24:47 by jbulot           ###   ########.fr       */
+/*   Updated: 2025/12/10 13:16:34 by jbulot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int		ft_isdigit(int c);
 int		ft_islower(int c);
 int		ft_isprint(int c);
 int		ft_isupper(int c);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 size_t	ft_strlcat(char *dst, const char *src, size_t siz);

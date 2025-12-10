@@ -12,9 +12,10 @@ This project involves coding a C library that will include numerous general purp
 * `ft_bzero`: zero a byte string;
 * `ft_memcpy`: copy memory area not overlap;
 * `ft_memmove`: copy memory area may overlap;
-* `ft_strlcpy`: copy a string;
-* `ft_strlcat`: concatenate two strings;
+* `ft_strlcpy`: copy n characters of a string;
+* `ft_strlcat`: concatenate two strings whose result is at most n characters;
 * `ft_toupper`: convert lowercase to uppercase;
 * `ft_tolower`: convert uppercase to lowercase;
 * `ft_strchr`: locate the first occurrence of character in string;
-* `ft_strrchr`: locate the last occurrence of character in string.
+* `ft_strrchr`: locate the last occurrence of character in string;
+* `ft_strncmp`: compare the first n characters of two strings.
