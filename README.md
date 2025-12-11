@@ -27,4 +27,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_strdup`: duplicate a string.
 
 ## Additional functions
-* `ft_substr`: Allocates memory and returns a substring from the string. The substring starts at an index and has a maximum length.
+* `ft_substr`: allocates memory and returns a substring from the string. The substring starts at an index and has a maximum length;
+* `ft_strjoin`: allocates memory and returns a new string, which is the result of concatenation of two strings.
