@@ -25,3 +25,6 @@ This project involves coding a C library that will include numerous general purp
 * `ft_atoi`: convert a string to an integer;
 * `ft_calloc`: allocate dynamic memory and initialize it to zero;
 * `ft_strdup`: duplicate a string.
+
+## Additional functions
+* `ft_substr`: Allocates memory and returns a substring from the string. The substring starts at an index and has a maximum length.

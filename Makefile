@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/10 16:49:37 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/11 11:02:58 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,6 +35,7 @@ SRCS	=	ft_atoi.c		\
 			ft_strncmp.c	\
 			ft_strnstr.c	\
 			ft_strrchr.c	\
+			ft_substr.c		\
 			ft_tolower.c	\
 			ft_toupper.c
 
