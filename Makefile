@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/11 12:10:45 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/11 13:30:32 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ SRCS	=	ft_atoi.c		\
 			ft_memcpy.c		\
 			ft_memmove.c	\
 			ft_memset.c		\
+			ft_split.c		\
 			ft_strchr.c		\
 			ft_strdup.c		\
 			ft_strlcat.c	\

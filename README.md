@@ -29,4 +29,5 @@ This project involves coding a C library that will include numerous general purp
 ## Additional functions
 * `ft_substr`: allocates memory and returns a substring from the string. The substring starts at an index and has a maximum length;
 * `ft_strjoin`: allocates memory and returns a new string, which is the result of concatenation of two strings;
-* `ft_strtrim`: allocates memory and returns a copy of the string from which specified characters have been removed from the beginning and end.
+* `ft_strtrim`: allocates memory and returns a copy of the string from which specified characters have been removed from the beginning and end;
+* `ft_split`: allocates memory and returns an array of strings obtained by splitting the string using a character as a delimiter.
