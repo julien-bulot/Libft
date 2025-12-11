@@ -6,7 +6,7 @@
 /*   By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 14:50:09 by jbulot            #+#    #+#             */
-/*   Updated: 2025/12/11 13:31:01 by jbulot           ###   ########.fr       */
+/*   Updated: 2025/12/11 14:45:43 by jbulot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 
+char	*ft_itoa(int n);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *s);
 char	*ft_strjoin(char const *s1, char const *s2);
