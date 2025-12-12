@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/12 10:35:47 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/12 10:47:22 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,10 +31,11 @@ SRCS	=	ft_atoi.c		\
 			ft_split.c		\
 			ft_strchr.c		\
 			ft_strdup.c		\
+			ft_striteri.c	\
+			ft_strjoin.c	\
 			ft_strlcat.c	\
 			ft_strlcpy.c	\
 			ft_strlen.c		\
-			ft_strjoin.c	\
 			ft_strmapi.c	\
 			ft_strncmp.c	\
 			ft_strnstr.c	\

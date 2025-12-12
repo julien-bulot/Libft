@@ -32,4 +32,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_strtrim`: allocates memory and returns a copy of the string from which specified characters have been removed from the beginning and end;
 * `ft_split`: allocates memory and returns an array of strings obtained by splitting the string using a character as a delimiter;
 * `ft_itoa`: allocates memory and returns a string representing the integer received as an argument.
-* `ft_strmapi`: applies afunction to each character of the string. A new string is created to store the results from the successive applications of the functton.
+* `ft_strmapi`: applies a function to each character of the string. A new string is created to store the results from the successive applications of the functton.
+* `ft_striteri`: aplies a function to each character of the string passed as argument. Each character is passed by address to the function so it can be modified if necessary.
