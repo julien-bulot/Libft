@@ -38,3 +38,6 @@ This project involves coding a C library that will include numerous general purp
 * `ft_putstr_fd`: outputs a string to the specified file descriptor;
 * `ft_putendl_fd`: outputs a string to the specified file descriptor followed by a newline;
 * `ft_putnbr_fd`: uutputs a integer to the specified file descriptor.
+
+## linked list
+* `ft_lstnew`: Allocates memory and returns a new node.
