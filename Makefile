@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/12 12:06:35 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/12 12:13:39 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,11 +49,12 @@ SRCS		=	ft_atoi.c			\
 				ft_tolower.c		\
 				ft_toupper.c
 
-SRC_BONUS	=	ft_lstnew.c
+SRCS_BONUS	=	ft_lstadd_front.c	\
+				ft_lstnew.c
 
 OBJS		=	$(SRCS:.c=.o)
 
-OBJ_BONUS	=	$(SRC_BONUS:.c=.o)
+OBJS_BONUS	=	$(SRCS_BONUS:.c=.o)
 
 CC			=	cc
 
@@ -64,8 +65,8 @@ RM			=	rm -f
 all			:
 				make $(NAME)
 
-bonus		:	$(OBJ_BONUS)
-				ar crs $(NAME) $(OBJ_BONUS)
+bonus		:	$(OBJS_BONUS)
+				ar crs $(NAME) $(OBJS_BONUS)
 
 $(NAME)		:	$(OBJS)
 				ar crs $(NAME) $(OBJS)

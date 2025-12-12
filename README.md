@@ -40,4 +40,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_putnbr_fd`: uutputs a integer to the specified file descriptor.
 
 ## linked list
-* `ft_lstnew`: Allocates memory and returns a new node.
+* `ft_lstnew`: sllocates memory and returns a new node;
+* `ft_lstadd_front`: adds a node at the beginning of the list.
