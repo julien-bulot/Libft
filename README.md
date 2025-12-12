@@ -41,4 +41,5 @@ This project involves coding a C library that will include numerous general purp
 
 ## linked list
 * `ft_lstnew`: sllocates memory and returns a new node;
-* `ft_lstadd_front`: adds a node at the beginning of the list.
+* `ft_lstadd_front`: adds a node at the beginning of the list;
+* `ft_lstsize`: counts the number of nodes in the list.
