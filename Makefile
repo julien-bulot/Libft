@@ -6,7 +6,7 @@
 #    By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/09 14:40:23 by jbulot            #+#    #+#              #
-#    Updated: 2025/12/12 14:47:07 by jbulot           ###   ########.fr        #
+#    Updated: 2025/12/12 15:12:42 by jbulot           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,7 +49,8 @@ SRCS		=	ft_atoi.c			\
 				ft_tolower.c		\
 				ft_toupper.c
 
-SRCS_BONUS	=	ft_lstadd_front.c	\
+SRCS_BONUS	=	ft_lstadd_back.c	\
+				ft_lstadd_front.c	\
 				ft_lstlast.c		\
 				ft_lstnew.c			\
 				ft_lstsize.c
