@@ -36,4 +36,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_striteri`: aplies a function to each character of the string passed as argument. Each character is passed by address to the function so it can be modified if necessary;
 * `ft_putchar_fd`: outputs a character to the specified file descriptor;
 * `ft_putstr_fd`: outputs a string to the specified file descriptor;
-* `ft_putendl_fd`: outputs a string to the specified file descriptor followed by a newline.
+* `ft_putendl_fd`: outputs a string to the specified file descriptor followed by a newline;
+* `ft_putnbr_fd`: uutputs a integer to the specified file descriptor.
