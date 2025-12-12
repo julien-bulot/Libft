@@ -44,4 +44,5 @@ This project involves coding a C library that will include numerous general purp
 * `ft_lstadd_front`: adds a node at the beginning of the list;
 * `ft_lstsize`: counts the number of nodes in the list;
 * `ft_lstlast`: returns the last node of the list;
-* `ft_lstadd_back`: adds a node at the end of the list.
+* `ft_lstadd_back`: adds a node at the end of the list;
+* `ft_lstdelone`: takes a node as parameter and frees its content using a functiom.
