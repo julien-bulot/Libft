@@ -34,5 +34,6 @@ This project involves coding a C library that will include numerous general purp
 * `ft_itoa`: allocates memory and returns a string representing the integer received as an argument;
 * `ft_strmapi`: applies a function to each character of the string. A new string is created to store the results from the successive applications of the functton;
 * `ft_striteri`: aplies a function to each character of the string passed as argument. Each character is passed by address to the function so it can be modified if necessary;
-* `ft_putchar_fd`: Outputs a character to the specified file descriptor;
-* `ft_putstr_fd`: Outputs a string to the specified file descriptor.
+* `ft_putchar_fd`: outputs a character to the specified file descriptor;
+* `ft_putstr_fd`: outputs a string to the specified file descriptor;
+* `ft_putendl_fd`: outputs a string to the specified file descriptor followed by a newline.
