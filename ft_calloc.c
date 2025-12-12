@@ -6,7 +6,7 @@
 /*   By: jbulot <jbulot@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 16:24:08 by jbulot            #+#    #+#             */
-/*   Updated: 2025/12/10 17:01:55 by jbulot           ###   ########.fr       */
+/*   Updated: 2025/12/12 11:35:39 by jbulot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 
 	if (!nmemb || !size)
 	{
-		alloc = malloc(sizeof(*alloc));
+		alloc = malloc(0);
 		if (!alloc)
 			return (NULL);
 		return (alloc);
